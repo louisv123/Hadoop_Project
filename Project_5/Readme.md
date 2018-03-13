@@ -13,13 +13,26 @@ The job 1 initializes each node with a page rank equals to 0.85/#nodes.
 
 ![alt text](https://github.com/louisv123/Hadoop_Project/blob/master/Project_5/Picture/Capture1.png?raw=true)
 
-here, page_rank = 0.85/5 =0.17
+ - Job 1:
+ 
+For the mapper, one has:
+"1","2"
+"2","3"
+"3","1"
+"3","2"
+...
+
+For the reducer, the page_rank = 0.85/5 =0.17
 
 we would have:
 
 "1","0.17","2"
 
 "2","0.17","3"
+
+"3","0.17","1,2,4"
+
+...
 
 ### Job 2 :
 
