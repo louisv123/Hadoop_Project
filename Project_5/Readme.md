@@ -13,9 +13,13 @@ The job 1 initializes each node with a page rank equals to 0.85/#nodes.
 
 ![alt text](https://github.com/louisv123/Hadoop_Project/blob/master/Project_5/Picture/Capture1.png?raw=true)
 
-here, we would have:
-"1","0.17","2,3"
-"2","0.17","1,3,4"
+here, page_rank = 0.85/5 =0.17
+
+we would have:
+
+"1","0.17","2"
+
+"2","0.17","3"
 
 ### Job 2 :
 
