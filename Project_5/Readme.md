@@ -9,6 +9,8 @@ The job 1 initializes each node with a page rank equals to 0.85/#nodes.
 - reducer takes as input "node1","node2" and gives as output 
 "node1",0.85/#nodes,"node1_out1,...,node1_outn"
 
+![alt text](https://github.com/louisv123/Hadoop_Project/blob/master/Project_5/Picture/Capture1.png?raw=true)
+
 ### Job 2 :
 
 The job 2 computes one iteration of the page rank algorithm:
