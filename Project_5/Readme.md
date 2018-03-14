@@ -70,8 +70,12 @@ we would have:
  
  We calculate the new page rank by damping_factor * sum (page_rank/#nbr_of_out_link_from_1) + (1-damping_factor). 
  
- The new page_rank for node 1 is 0.85*0.17/1+1-0.85
+ The new page_rank for node 1 is 0.85*0.17/1+1-0.85=0.295
  
  The output is :
  
- "1","
+ "1","0.295","2"
+ 
+ "2","0.295","3"
+ 
+ ...
