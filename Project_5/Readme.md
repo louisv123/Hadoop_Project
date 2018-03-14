@@ -1,3 +1,40 @@
+# Project 5
+
+## RUNNING
+
+# Manually:
+
+We can run the project manually : 
+
+- starting hadoop
+
+- put input file in hdfs input file
+
+- run the first initializing job:
+
+`hadoop jar hadoop-streaming-3.0.0.jar -mapper "python job1_mapper1.py" -reducer "python /job1_reducer1.py" -input "name/input/data.txt" -output "name/output1"`
+
+- run k times the second job for k iteration:
+
+`hadoop jar hadoop-streaming-3.0.0.jar -mapper "python job2_mapper1.py" -reducer "python /job2_reducer1.py" -input "name/output1/part-00000" -output "name/output2"`
+
+# With command shell
+
+- starting hadoop
+
+- put input file `data.txt` in hdfs file : `name/input`
+
+- in `hadoop.sh`, change your `hadoop-streaming-3.0.0.jar` path and version
+
+- run `./hadoop.sh`
+
+The command shell asks the number of iteration of page rank iteration. (e.g: 5)
+
+Then, the command shell the path of hdfs file, here it would be `name`
+
+
+
+
 ## PAGE RANK
 
 ### Job 1 :
