@@ -6,6 +6,8 @@ Data come from https://www.ncdc.noaa.gov/
 
 - Starting Hadoop.
 
+- put input.txt in hadoop folder
+
 - In the console, typing :
 
-`hadoop jar path/to/weather_station.jar main.class hdfs_path/to/input.txt hdfs_path/to/output`
+`hadoop jar path/to/weather_station.jar station/Main hdfs_path/to/input.txt hdfs_path/to/output`
