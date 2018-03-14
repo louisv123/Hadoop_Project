@@ -2,7 +2,7 @@
 
 ## RUNNING
 
-# Manually:
+### Manually:
 
 We can run the project manually : 
 
@@ -18,7 +18,7 @@ We can run the project manually :
 
 `hadoop jar hadoop-streaming-3.0.0.jar -mapper "python job2_mapper1.py" -reducer "python /job2_reducer1.py" -input "name/output1/part-00000" -output "name/output2"`
 
-# With command shell
+### With command shell
 
 - starting hadoop
 
