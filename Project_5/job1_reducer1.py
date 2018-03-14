@@ -16,10 +16,11 @@ for line in sys.stdin:
 	
 
 	if node_1 in node_link.keys():
-		node_link[node_1].append(node_2)
+		node_link[node_1].append(int(node_2))
 	else:
-		node_link[node_1]=[node_2]
+		node_link[node_1]=[int(node_2)]
 
 for key in node_link.keys():
 	node_link[key].append(0.85/len(node_link.keys()))
-	print '{};{},{}'.format(key,node_link[key][-1],node_link[key][:-1])
+	print '{};{};{}'.format(key,node_link[key][-1],node_link[key][:-1])
+	
