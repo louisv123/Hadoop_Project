@@ -30,7 +30,7 @@ We can run the project manually :
 
 The command shell asks the number of iteration of page rank iteration. (e.g: 5)
 
-Then, the command shell the path of hdfs file, here it would be `name`
+Then, the command shell asks the path of hdfs file, here it would be `name`
 
 
 
