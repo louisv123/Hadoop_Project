@@ -66,3 +66,12 @@ we would have:
   	
 	"1","2"
  
+ For the reducer, we take as is input two different arguments.
+ 
+ We calculate the new page rank by damping_factor * sum (page_rank/#nbr_of_out_link_from_1) + (1-damping_factor). 
+ 
+ The new page_rank for node 1 is 0.85*0.17/1+1-0.85
+ 
+ The output is :
+ 
+ "1","
